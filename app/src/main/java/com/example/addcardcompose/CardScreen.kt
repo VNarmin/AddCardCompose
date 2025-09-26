@@ -143,7 +143,7 @@ fun CardScreen() {
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(LocalConfiguration.current.screenHeightDp.dp * 0.30F)
+                    .height(LocalConfiguration.current.screenHeightDp.dp * 0.25F)
             ) {
                 Card(
                     modifier = Modifier.fillMaxSize(),
